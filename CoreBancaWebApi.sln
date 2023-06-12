@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto", "PlantillaWebApi\Proyecto.csproj", "{79CDFAAF-56E6-4369-983C-96A590CC1C6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proyecto", "PlantillaWebApi\Proyecto.csproj", "{79CDFAAF-56E6-4369-983C-96A590CC1C6E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.ServicesLayer", "01.ServicesLayer", "{1A2FC8EC-2285-44A4-B213-106FD6890FA5}"
 EndProject
@@ -13,11 +13,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.DataLayer", "03.DataLaye
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.CrossLayer", "04.CrossLayer", "{6FB3B584-0078-470E-B88F-B435D9469BBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto.Model", "Proyecto.Model\Proyecto.Model.csproj", "{87BAEC7F-F260-4AC9-A9C2-350DC9985C94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proyecto.Model", "Proyecto.Model\Proyecto.Model.csproj", "{87BAEC7F-F260-4AC9-A9C2-350DC9985C94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto.Data", "Proyecto.Data\Proyecto.Data.csproj", "{0708DA51-45B2-46FB-BAC1-2FF7B42598F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proyecto.Data", "Proyecto.Data\Proyecto.Data.csproj", "{0708DA51-45B2-46FB-BAC1-2FF7B42598F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto.Business", "Proyecto.Business\Proyecto.Business.csproj", "{75E3367E-277E-4D50-969A-A3F859F2E973}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proyecto.Business", "Proyecto.Business\Proyecto.Business.csproj", "{75E3367E-277E-4D50-969A-A3F859F2E973}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.Docker", "05.Docker", "{703D0D70-6E2C-4F28-828F-B0979FFFA69D}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
