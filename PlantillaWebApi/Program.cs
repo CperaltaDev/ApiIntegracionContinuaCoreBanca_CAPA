@@ -19,7 +19,7 @@ try
     builder.Services.AddControllers();
     builder.Services.AddEndpointsApiExplorer();
 #pragma warning disable S1075 // URIs should not be hardcoded
-    string uriString = "https://www.credivalores.com.co";
+    string uriString = "https://github.com/CperaltaDev/ApiIntegracionContinuaCoreBanca_CAPA";
 #pragma warning restore S1075 // URIs should not be hardcoded
     builder.Services.AddSwaggerGen(options =>
     {
@@ -28,7 +28,7 @@ try
         options.SwaggerDoc("v1", new OpenApiInfo
         {
             Version = "v1",
-            Title = "Api Integracion Documentos Core Bancario",
+            Title = "Api Integracion Core Bancario",
             Description = "Api que permite la integracion de documentos para la Banca" + " " +
                           "\n\n### Politecnico Grancolombiano\n### Interacion Continua" +
                           "\n Entrega proyecto 2 Escenario 5",
